@@ -2,9 +2,8 @@ import org.junit.*;
 import static org.junit.Assert.*;
 
 /** Test case class for testing emails address verification.
-
-
 */
+
 public class TestEmail {
 
   private EmailAddress address;

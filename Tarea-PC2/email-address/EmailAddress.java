@@ -38,6 +38,8 @@ public class EmailAddress {
     if ( atPosition == -1 ) return false;
     int dotPosition = address.indexOf('.');
     if ( dotPosition < atPosition ) return false;
+    int firstCharacter=address.charAt(0);
+    if((firstCharacter-'0')>=0&&(firstCharacter-'0')<=9)return  false;
     return true;
   }
 }
